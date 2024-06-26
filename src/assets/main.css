@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+.body {
+  color: white;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+  background: rgb(105, 105, 105);
+  background: linear-gradient(0deg, rgba(105, 105, 105, 1) 0%, rgba(75, 75, 75, 1) 100%);
+}
+
+.pages {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
